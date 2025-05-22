@@ -26,6 +26,7 @@
         $i = $i + 1; // Strictement equivalent à "$i++;"
     }
 
+    // En JS: for (pokemon of pokemons)
     foreach ($pokemons as $pokemon)
     {
         echo "<p>$pokemon</p>";
